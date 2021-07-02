@@ -1,6 +1,7 @@
 from cs50 import get_string
 
 def main():
+    '''Main function'''
     string = get_string("Text: ")
     letters = count_letters(string)
     words = count_words(string)
@@ -22,6 +23,7 @@ def main():
 
 
 def count_letters(string):
+    '''Helper function that accepts a string and returns a letter count'''
     letters = 0
     for char in string:
         if (char.isalpha()) == True:
@@ -29,6 +31,7 @@ def count_letters(string):
     return letters
 
 def count_words(string):
+    '''Helper function that accepts a string and returns a word count'''
     words = 1
     prev_char = ""
     for char in string:
@@ -38,6 +41,7 @@ def count_words(string):
     return words
 
 def count_sentences(string):
+    '''Helper function that accepts a string and returns a sentence count'''
     punctuation = [".", "?", "!"]
     sentences = 1
     prev_char = ""
