@@ -1,7 +1,7 @@
 # reading-level
 
 ## About
-This was a python project I worked on as part of a problem set provided in the CS50 course Harvard provides online. A full description of the problem set can be found at https://cs50.harvard.edu/college/2020/spring/psets/2/readability/.
+This was a python project I worked on as part of a problem set from the CS50 course Harvard provides online. A full description of the problem set can be found at https://cs50.harvard.edu/college/2020/spring/psets/2/readability/.
 
 ## Purpose
 The purpose of this project was to take an input paragram and apply the Coleman-Liau index to it to output what US grade level
