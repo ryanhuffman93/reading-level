@@ -15,7 +15,10 @@ L = The average number of letters per 100 words
 S = The average number of sentences per 100 words
 
 ## Testing
-The following input strings should have the results as follows:
+
+```python read.py```
+
+Run the code above and input the strings below when prompted. The results should be as follows:
 
 "One fish. Two fish. Red fish. Blue fish." (Before Grade 1)
 
