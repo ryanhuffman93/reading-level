@@ -1,8 +1,6 @@
-from cs50 import get_string
-
 def main():
     '''Main function'''
-    string = get_string("Text: ")
+    string = input("Text: ")
     letters = count_letters(string)
     words = count_words(string)
     sentences = count_sentences(string)
