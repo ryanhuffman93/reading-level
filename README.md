@@ -9,7 +9,9 @@ is needed to understand the text. Any text that has a reading level of less than
 with a reading level of 16 or above would result in 'Grade 16+'.
 
 Coleman-Liau formula = 0.0588 * L - 0.296 * S - 15.8
+
 L = The average number of letters per 100 words
+
 S = The average number of sentences per 100 words
 
 ## Testing
